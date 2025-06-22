@@ -2,7 +2,7 @@
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-import numpy as np
+#import numpy as np
 
 keywords = ["breaking", "trending", "just in", "alert", "hot take", "exclusive"]
 important_entities = ["elon", "ai", "india", "musk", "china", "usa", "bitcoin", "usa"]
