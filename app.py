@@ -197,9 +197,7 @@ app = FastAPI(
     title="Pulse News Aggregator",
     lifespan=lifespan
 )
-@app.get("/")
-def read_root():
-    return {"message": "App is working!"}
+
 # --- Middleware ---
 Instrumentator().instrument(app).expose(app)
 app.add_middleware(
@@ -259,7 +257,11 @@ def weather_summary(lat: float = Query(...), lon: float = Query(...)):
         }
     except Exception as e:
         return {"error": "Unable to fetch weather"}
-    
+
+@app.get("/")
+def read_root():
+    return {"status": "Pulse backend is running"}
+   
     
 
 '''On startup, a daemon thread runs scheduled_scrape().
