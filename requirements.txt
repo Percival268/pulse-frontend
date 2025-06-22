@@ -114,7 +114,7 @@ markdown-it-py==3.0.0
 MarkupSafe==3.0.2
 matplotlib==3.10.0
 matplotlib-inline==0.1.7
-mdurl==0.1.2
+mdurl==0.1.
 mistune==3.1.1
 ml_dtypes==0.5.1
 more-itertools==10.3.0
@@ -183,8 +183,6 @@ python-json-logger==3.2.1
 pyttsx3==2.90
 pytweening==1.2.0
 pytz==2025.2
-pyvirtualcam==0.13.0
-pywin32==306
 pywinpty==2.0.15
 PyYAML==6.0.2
 pyzmq==26.2.1
