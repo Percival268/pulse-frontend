@@ -197,7 +197,9 @@ app = FastAPI(
     title="Pulse News Aggregator",
     lifespan=lifespan
 )
-
+@app.get("/")
+def read_root():
+    return {"message": "App is working!"}
 # --- Middleware ---
 Instrumentator().instrument(app).expose(app)
 app.add_middleware(
