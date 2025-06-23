@@ -5,8 +5,9 @@ import Header from "../components/Header";
 import CategoryFilter from "../components/CategoryFilter";
 import NewsCard from "../components/NewsCard";
 import OneSignal from "react-onesignal";
+import Footer from "../components/Footer";
 
-const API_URL = process.env.REACT_APP_API_URL || "https://pulse-backend.onrender.com";
+const API_URL = process.env.REACT_APP_API_URL || "https://pulse-backend.onrender.com"|| "https://localhost:8000";
 
 
 const Home = () => {
@@ -155,6 +156,7 @@ const Home = () => {
           ))}
         </div>
       )}
+      <Footer />
     </div>
   );
 };
