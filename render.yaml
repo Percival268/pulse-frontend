@@ -1,6 +1,5 @@
 build:
-  pythonVersion: 3.10  # or 3.11
-
+  pythonVersion: 3.10  
 services:
   - type: web
     name: pulse-backend
