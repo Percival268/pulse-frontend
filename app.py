@@ -34,7 +34,7 @@ from del_Dupe import remove_duplicate_rows
 # --- Configuration ---
 API_KEY = os.getenv("API_KEY", "mysecretkey")  # Override with .env in production
 PROMETHEUS_PORT = 8001
-ALLOWED_ORIGINS = ["http://localhost:3000", "https://yourproductiondomain.com"]
+ALLOWED_ORIGINS = ["http://localhost:3000", "https://pulse-frontend-x23.vercel.app"]
 
 # --- Logging ---
 dictConfig({
