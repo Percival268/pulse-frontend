@@ -11,4 +11,4 @@ joblib
 slowapi
 python-dotenv
 prometheus-fastapi-instrumentator
-sklearn
+scikit-learn
