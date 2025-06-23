@@ -12,3 +12,4 @@ slowapi
 python-dotenv
 prometheus-fastapi-instrumentator
 scikit-learn
+python-json-logger
